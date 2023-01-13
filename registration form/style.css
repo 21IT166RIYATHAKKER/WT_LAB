@@ -1,0 +1,61 @@
+
+#bg-image {
+  background-image: url(xyzz.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+}
+.blur {
+  backdrop-filter: blur(6px);
+  height: 90vh;
+	width: 100%;
+}
+.main{
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    width: 55%;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    left: 25%;
+    position: relative;
+}
+#blurr{
+    backdrop-filter: blur(10px);
+    height: 90vh;
+      width: 100%;  
+}
+.body{
+    backdrop-filter: blur(10px);
+    width: 100%;
+}
+.main .r4212 {
+    text-align: center;
+    outline: 10px;
+    font-size: 100px;
+}
+#content {
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+   align-content: center;
+    margin-left: 7%;
+}
+#new {
+    font-size: 27px;
+    color: rgb(255, 255, 255);
+   align-content: center;
+    margin-left: 22%;
+}
+.fi {
+    margin-left: 22%;
+    color: rgb(0, 255, 197);
+    font-size: 27px;
+}
+.fii {
+    margin-left: 22%;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">\
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROMPT-CALCULATOR</title>
+</head>
+<body>
+    <button onclick="fun();">Click</button>
+    <script>
+        function fun() {
+            var fn = prompt("Enter First Number :-", " ");
+            var op = prompt("operator :-", " ");
+            var sn = prompt("Enter second Name :-", " ");
+            let str = fn + op + sn;
+            let ans = eval(str);
+            document.write(ans);
+        }
+    </script>
+    <style>
+        html,
+        body {
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+    </style>
+</body>
+</html>

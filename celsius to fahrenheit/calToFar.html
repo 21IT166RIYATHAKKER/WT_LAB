@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<title>Fahrenheit to Celcius</title>
+
+<body>
+    <p>Enter value in the Fahrenheit and then click for value in celcius</p>
+    <p>
+        <label>Fahrenheit</label>
+        <input type="number" placeholder="Fahrenheit"
+            onclick="temperatureConverter(this.value)">
+    </p>
+    <p>Celcius = <span id="cal"></span></p>
+    <script>
+        function temperatureConverter(valNum) {
+            valNum = parseFloat(valNum);
+            document.getElementById("cal").textContent = (valNum - 32) / 1.8;
+        }
+    </script>
+
+</body>
+
+</html>
